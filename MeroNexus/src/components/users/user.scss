@@ -1,0 +1,35 @@
+.user {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 20px 0px;
+
+          span {
+            font-size: 0.7rem;
+            font-weight: 300;
+          }
+
+          .userInfo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+
+            img {
+              width: 2rem;
+              height: 2rem;
+              border-radius: 50%;
+            }
+
+            .online {
+              width: 8px;
+              height: 8px;
+              background: limegreen;
+              border-radius: 50%;
+              position: absolute;
+              top: 0;
+              left: 25px;
+            }
+
+          }
+}
